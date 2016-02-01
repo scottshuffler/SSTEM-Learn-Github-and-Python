@@ -2,7 +2,7 @@
 
 ##Intro
 
-We're going to put all of your calculators from the last lab into this project. 
+We're going to put all of your calculators from the last lab into this project (https://github.com/scottshuffler/SSTEM-Python-Lab). 
 
 The Raspberry Pi already has git installed, but if you're working on your own machine, you can install it from here: https://git-scm.com/ or through the command line (apt get / brew). 
 
