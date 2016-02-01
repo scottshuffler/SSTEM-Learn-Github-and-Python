@@ -4,15 +4,15 @@
 
 We're going to put all of your calculators from the last lab into this project. 
 
-The Raspberry Pi already has git installed but if you're working on your own machine you can install it from here: https://git-scm.com/ or through the command line (apt get / brew). 
+The Raspberry Pi already has git installed, but if you're working on your own machine, you can install it from here: https://git-scm.com/ or through the command line (apt get / brew). 
 
-If you need a refresher on vim I suggest either http://www.openvim.com/ or at any command prompt type vimtutor
+If you need a refresher on vim, I suggest either http://www.openvim.com/ or at any command prompt type vimtutor
 
 ##Terms
 
-Clone - Cloning is taking a snapshot of the project and storeing it into a new directory. 
+Clone - Cloning is taking a snapshot of the project and storing it into a new directory. 
 
-Commit - Commiting is essentially saving any changes you've made to the project, this stays local until pushed. 
+Commit - Committing is essentially saving any changes you've made to the project. This stays local until pushed. 
 
 Pull - Pulling finds any changes made to the project that you cloned and adds them to your project. 
 
@@ -25,7 +25,7 @@ Push - Pushing adds your commits to the project you cloned.
 git clone https://github.com/scottshuffler/SSTEM-Learn-Github-and-Python.git
 ```
 
-- Enter the directory and modify the main.py file by adding your code into the class with your name on it 
+- Enter the directory and modify the main.py file by adding your code into the class with your name on it. 
 ``` bash
 cd SSTEM-Learn-Github-and-Python 
 vim main.py
