@@ -1,16 +1,32 @@
 class Gurney:
-    def __init__(self):
-        self.user_string = ''
+    
+    def greeting(self):
+        print('welcome to Simple Calculator Alpha 0.1')
 
-    def loop(self):
-        while True:
-            arg = input('-> ')
-            if arg == 'quit':
-                print(self.user_string)
-                break
-            else:
-                self.user_string += arg
+    def main(self):
+        firstNumber = float(input('Enter your first number: '))
+        operator = input('enter your operator: '))
+        secondNumber = float(input('Enter your third number:'))
+        if (operator == '+'):
+            simpleCalculator.add(self, firstNumber, operator, secondNumber)
+        elif (operator == '-'):
+            simpleCalculator.subtract(self, firstNumber, operator, secondNumber)
+        elif (operator == '*'):
+            simplecalculator.mult(self, firstNumber, operator, secondNumber)
+        elif (operator == '/'):
+            simplecalculator.mult(self, firstNumber, operator, secondNumber)
 
+    def add(self, firstNumber, operator, secondNumber)
+        print(firstNumber, '+', secondNumber, '=', firstNumber + secondNumber)
+    
+    def subtract(self, firstNumber, operator, secondNumber)
+        print(firstNumber, '-', secondNumber, '=', firstNumber - secondNUmber)
+
+    def mult(self, firstNumber, operator, secondNumber)
+        print(firstNumber, '*', secondNumber, '=', firstNumber * secondNumber)
+
+    def div(self, firstNumber, operator, secondNumber)
+        print(firstNumber, '/', secondNumber, '=', firstNumber / secondNumber)
 
 class Daniel:
     def __init__(self):
