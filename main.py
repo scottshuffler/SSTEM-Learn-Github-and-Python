@@ -5,7 +5,7 @@ class Gurney:
 
     def main(self):
         firstNumber = float(input('Enter your first number: '))
-        operator = input('enter your operator: '))
+        operator = float(input('enter your operator: '))
         secondNumber = float(input('Enter your third number:'))
         if (operator == '+'):
             simpleCalculator.add(self, firstNumber, operator, secondNumber)
@@ -16,16 +16,16 @@ class Gurney:
         elif (operator == '/'):
             simplecalculator.mult(self, firstNumber, operator, secondNumber)
 
-    def add(self, firstNumber, operator, secondNumber)
+    def add(self, firstNumber, operator, secondNumber):
         print(firstNumber, '+', secondNumber, '=', firstNumber + secondNumber)
     
-    def subtract(self, firstNumber, operator, secondNumber)
+    def subtract(self, firstNumber, operator, secondNumber):
         print(firstNumber, '-', secondNumber, '=', firstNumber - secondNUmber)
 
-    def mult(self, firstNumber, operator, secondNumber)
+    def mult(self, firstNumber, operator, secondNumber):
         print(firstNumber, '*', secondNumber, '=', firstNumber * secondNumber)
 
-    def div(self, firstNumber, operator, secondNumber)
+    def div(self, firstNumber, operator, secondNumber):
         print(firstNumber, '/', secondNumber, '=', firstNumber / secondNumber)
 
 class Daniel:
